@@ -1,0 +1,202 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* fuente similar */
+    color: #333333;
+    margin: 0;
+    padding: 0 20px;            /* Deja espacio a los lados */
+    max-width: 800px;           /* Limita el ancho para mejor legibilidad */
+    margin-left: auto;
+    margin-right: auto;         /* Centra el contenido */
+    background-color: #ffffff;  /* Fondo blanco, como la página */
+
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: -.23px;
+    line-height: 35px;
+}
+
+/* Estilos generales para el menú */
+.brook-navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #222328;
+    font-weight: 500;
+
+  }
+  
+  .brook-navbar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu > li {
+    position: relative;
+  }
+  
+  .menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .menu > li > a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para submenús */
+  .has-submenu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    z-index: 1000;
+  }
+  
+  .has-submenu:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .submenu li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para iconos */
+  .fa {
+    margin-left: 5px;
+  }
+
+  .main-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: 'Helvetica', sans-serif;
+    color: #333;
+  }
+  
+  .news-title {
+    color: #222328;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 25px;
+  }
+  
+  .news-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+  }
+  
+  .news-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  .news-body p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+
+  .single-format-standard .breadcrumb {
+    color: #333;
+    display: block;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+
+.breadcrumb a, .single-format-standard .breadcrumb span {
+  background-color: #dd2828;
+  border-radius: 10px 5px;
+  color: #fff;
+  display: inline;
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  margin-left: 15px;
+  padding: 5px 10px;
+}
+
+.ssbp-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;              /* Elementos en línea */
+  gap: 10px;                  /* Espacio entre botones */
+  flex-wrap: wrap;            /* Opcional: permite que pasen a otra línea si no caben */
+}
+
+.ssbp-list li {
+  display: inline-block;
+}
+
+.ssbp-btn {
+  padding: 6px 12px;
+  background-color: #eee;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.ssbp-btn:hover {
+  background-color: #ddd;
+}
+
+.author-article {
+  color: #000000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.news-body-title p{
+  color: #333;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+
+.single-format-standard .article-estandar a {
+  color: #dd2828;
+}
+
+.links {
+  color: #dd2828;
+
+}
+
