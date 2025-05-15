@@ -1,44 +1,17 @@
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* fuente similar */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     color: #333333;
     margin: 0;
-    padding: 0 20px;            /* Deja espacio a los lados */
-    max-width: 800px;           /* Limita el ancho para mejor legibilidad */
+    padding: 0 20px;           
+    max-width: 800px;        
     margin-left: auto;
-    margin-right: auto;         /* Centra el contenido */
-    background-color: #ffffff;  /* Fondo blanco, como la página */
-
+    margin-right: auto;        
+    background-color: #ffffff;  
     font-size: 23px;
     font-weight: 300;
     letter-spacing: -.23px;
     line-height: 35px;
 }
-
-/* Estilos generales para el menú */
-.brook-navbar {
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #222328;
-    font-weight: 500;
-
-  }
-  
-  .brook-navbar .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .menu {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-  }
   
   .menu > li {
     position: relative;
@@ -87,11 +60,6 @@ body {
     background-color: #f0f0f0;
   }
   
-  /* Estilos para iconos */
-  .fa {
-    margin-left: 5px;
-  }
-
   .main-content {
     max-width: 800px;
     margin: 2rem auto;
@@ -108,12 +76,6 @@ body {
     margin-bottom: 25px;
   }
   
-  .news-meta {
-    font-size: 0.9rem;
-    color: #777;
-    margin-bottom: 1.5rem;
-  }
-  
   .news-image img {
     width: 100%;
     height: auto;
@@ -126,39 +88,26 @@ body {
     font-size: 1.1rem;
   }
 
-  .single-format-standard .breadcrumb {
-    color: #333;
-    display: block;
-    font-weight: 500;
-    margin: 20px 0;
-}
-
-
-.breadcrumb a, .single-format-standard .breadcrumb span {
+.breadcrumb a,  .breadcrumb span {
   background-color: #dd2828;
   border-radius: 10px 5px;
   color: #fff;
-  display: inline;
   font-family: 'Roboto Condensed';
   font-weight: 700;
   margin-left: 15px;
   padding: 5px 10px;
 }
 
-.ssbp-list {
+.social-btns {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;              /* Elementos en línea */
-  gap: 10px;                  /* Espacio entre botones */
-  flex-wrap: wrap;            /* Opcional: permite que pasen a otra línea si no caben */
+  display: flex;              
+  gap: 10px;                  
 }
 
-.ssbp-list li {
-  display: inline-block;
-}
 
-.ssbp-btn {
+.social-btn {
   padding: 6px 12px;
   background-color: #eee;
   border-radius: 4px;
@@ -166,10 +115,6 @@ body {
   font-size: 0.9rem;
   color: #333;
   transition: background-color 0.3s;
-}
-
-.ssbp-btn:hover {
-  background-color: #ddd;
 }
 
 .author-article {
@@ -191,12 +136,24 @@ body {
 }
 
 
-.single-format-standard .article-estandar a {
-  color: #dd2828;
-}
-
 .links {
   color: #dd2828;
-
 }
 
+#main-footer {
+    background-color: #212121;
+    padding-top: 40px;
+}
+
+footer .last-articles ul li a, footer .popular-posts ul li a, footer .widget_recent_entries_custom ul li a {
+    color: #fff !important;
+    font-size: 17px !important;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+footer .last-articles ul li .artist-name, footer .popular-posts ul li .artist-name {
+    color: #dd2828 !important;
+    font-size: 15px;
+    line-height: 20px;
+}
