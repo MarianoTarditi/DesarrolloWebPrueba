@@ -420,8 +420,49 @@
               </div>
             </div>
           </div>
-        </section>
+
       </article>
+
+                <input
+          type="text"
+          id="tituloInput"
+          placeholder="Editar título del formulario"
+        />
+
+        <h1 id="form-title">Formulario de Suscripción</h1>
+
+        <section>
+          <form id="formulario" action="post">
+            <label for="name">Nombre Completo</label>
+            <input type="text" id="name" name="name"  />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"  />
+
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña"  />
+
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad"  />
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono"  />
+
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion"  />
+
+            <label for="ciudad">Ciudad</label>
+            <input type="text" id="ciudad" name="ciudad"  />
+
+            <label for="codigoPostal">Código Postal</label>
+            <input type="text" id="codigoPostal" name="codigoPostal"  />
+
+            <label for="dni">DNI</label>
+            <input type="text" id="dni" name="dni"  />
+
+            <button class="form-button" type="submit">Enviar</button>
+            <button class="form-button" type="reset">Limpiar</button>
+        </section>
     </main>
 
     <!-- Aquí empieza el contenedor de imagen 
@@ -483,5 +524,8 @@
     </div>
 </footer>
 -->
+
+    <script src="subscription.js"></script>
+
   </body>
 </html>
