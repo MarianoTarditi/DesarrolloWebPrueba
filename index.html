@@ -423,7 +423,8 @@
 
       </article>
 
-                <input
+        <article class="article-news">
+        <input
           type="text"
           id="tituloInput"
           placeholder="Editar título del formulario"
@@ -434,37 +435,44 @@
         <section>
           <form id="formulario" action="post">
             <label for="name">Nombre Completo</label>
-            <input type="text" id="name" name="name"  />
+            <input type="text" id="name" name="name" />
 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email"  />
+            <input type="email" id="email" name="email" />
 
             <label for="contraseña">Contraseña</label>
-            <input type="password" id="contraseña" name="contraseña"  />
+            <input type="password" id="contraseña" name="contraseña" />
 
             <label for="edad">Edad</label>
-            <input type="number" id="edad" name="edad"  />
+            <input type="number" id="edad" name="edad" />
 
             <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" name="telefono"  />
+            <input type="tel" id="telefono" name="telefono" />
 
             <label for="direccion">Dirección</label>
-            <input type="text" id="direccion" name="direccion"  />
+            <input type="text" id="direccion" name="direccion" />
 
             <label for="ciudad">Ciudad</label>
-            <input type="text" id="ciudad" name="ciudad"  />
+            <input type="text" id="ciudad" name="ciudad" />
 
             <label for="codigoPostal">Código Postal</label>
-            <input type="text" id="codigoPostal" name="codigoPostal"  />
+            <input type="text" id="codigoPostal" name="codigoPostal" />
 
             <label for="dni">DNI</label>
-            <input type="text" id="dni" name="dni"  />
-
-            
+            <input type="text" id="dni" name="dni" />
 
             <button class="form-button" type="submit">Enviar</button>
             <button class="form-button" type="reset">Limpiar</button>
+          </form>
         </section>
+
+        <div id="modal" class="modal oculto">
+          <div class="modal-contenido">
+            <p id="modal-mensaje"></p>
+            <button id="cerrarModal">Cerrar</button>
+          </div>
+        </div>
+      </article>
     </main>
 
     <!-- Aquí empieza el contenedor de imagen 
