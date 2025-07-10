@@ -1,0 +1,96 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #333;
+}
+
+h1, #filters{
+    text-align: center;
+}
+
+
+
+#filters {
+    padding: 8px 16px;
+    margin: 10px;
+    border: 0; 
+    font-size: 18px;
+    border-radius: 5px;
+    display: none;
+}
+
+
+
+#filters input {
+        padding: 8px 16px;
+    margin: 10px;
+    border: 0; 
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.filter-options #status-filter, .filter-options #gender-filter, .filter-options #specie-filter {
+    padding: 8px 16px;
+    margin: 10px;
+    border: 0; 
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+
+.container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character-card{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.character-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.button-container {
+  text-align: center;
+  margin: 20px 0;
+margin-right: 350px;
+}
+
+.button-container button {
+  background-color: #4fb5cf;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
